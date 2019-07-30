@@ -1,6 +1,6 @@
 body{
 	background-color: #000000;
-	font-family: serif;
+	font-family: roboto, sans-serif;
 	width: 450px;
 	margin-right: auto;
 	margin-left: auto;
@@ -8,6 +8,10 @@ body{
 
 h1{
 	color : white; 
-	font-size: 70px;
-	line-height: 70px;
+	font-size: 40px;
+}
+
+p{
+	color : white; 
+	font-size: 20px;
 }
