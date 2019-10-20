@@ -51,9 +51,9 @@ section{
 }
 
 .intro{
-	width: 500px;
+	width: 600px;
 	display: block;
-	margin-top: 30px;
+	vertical-align: middle;
 	margin-left: auto;
 	margin-right: auto;
 }
