@@ -61,7 +61,7 @@ margin-right: auto;
 background-image: url("library/logo_typo_hover.png");
 }
 
-.intro{
+.click_here{
 	width: 400px;
 	height: 75px;
 	margin: 0;
@@ -76,11 +76,15 @@ background-image: url("library/logo_typo_hover.png");
   transform: translate(-50%, -50%);
 }
 
-.intro:hover{
+.click_here:hover{
 background-image: url("library/click_here_hover.png");
 }
 
 .exemple{
 	width: 600px;
 	margin: auto;
+}
+
+.intro{
+	margin-bottom: 25px;
 }
