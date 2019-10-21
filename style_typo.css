@@ -106,4 +106,5 @@ background-image: url("library/click_here_hover.png");
 
 .font1:hover{
 	color: black;
+	cursor: url(library/tonyhawk.cur), default;
 }
