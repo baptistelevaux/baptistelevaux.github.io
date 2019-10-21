@@ -62,13 +62,21 @@ background-image: url("library/logo_typo_hover.png");
 }
 
 .intro{
-	width: 600px;
+	width: 400px;
 	margin: 0;
+	background: url("library/click_here.png") no-repeat;
+	background-size: contain;
+	display: inline-block;
+	display: block;
   position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.card:hover{
+background-image: url("library/click_here_hover.png");
 }
 
 .exemple{
