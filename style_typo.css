@@ -63,6 +63,7 @@ background-image: url("library/logo_typo_hover.png");
 
 .intro{
 	width: 400px;
+	height: 75px;
 	margin: 0;
 	background: url("library/click_here.png") no-repeat;
 	background-size: contain;
