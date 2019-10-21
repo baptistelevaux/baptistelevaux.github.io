@@ -76,7 +76,7 @@ background-image: url("library/logo_typo_hover.png");
   transform: translate(-50%, -50%);
 }
 
-.card:hover{
+.intro:hover{
 background-image: url("library/click_here_hover.png");
 }
 
