@@ -44,6 +44,10 @@ header img{
   margin-right: auto;
 }
 
+header img:hover{
+	opacity: 0.33;
+}
+
 section{
 	font-weight: normal;
 	text-align: justify;
