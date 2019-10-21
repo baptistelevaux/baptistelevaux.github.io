@@ -37,7 +37,7 @@ footer{
 }
 
 header img{
-	width : 300px;
+	width : 200px;
 	height : auto;
 	display: block;
   margin-left: auto;
@@ -61,6 +61,6 @@ section{
 }
 
 .exemple{
-	width: 600px;
+	width: 450px;
 	margin: auto;
 }
