@@ -44,18 +44,17 @@ section{
 
 .card{
 width: 200px;
+height: 75px;
 background: url("library/logo_typo.png") no-repeat;
+background-size: contain;
 display: inline-block;
-height : auto;
 display: block;
 margin-left: auto;
 margin-right: auto;
-height: 75px;
-background-size: contain;
 }
 
 .card:hover{
-background: url("library/logo_typo_hover.png") no-repeat;
+background-image: url("library/logo_typo_hover.png");
 }
 
 .intro{
