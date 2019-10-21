@@ -8,6 +8,10 @@ div{
 	margin: auto;
 }
 
+header{
+	margin-top: 20px;
+}
+
 nav{
 	text-align: center;
 	margin-left : -40px;
