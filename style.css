@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400i&display=swap');
 
+@media screen and (min-width: 700px){
 div{
 	font-family: 'Source Code Pro', monospace;
 	font-weight: bolder;
@@ -70,4 +71,5 @@ mark{
 	background-color: white;
 	font-family: 'Gentium Book Basic', serif;
 	font-style: italic;
+}
 }
