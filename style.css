@@ -44,7 +44,6 @@ header img{
 }
 
 img{
-	width : auto;
 	display: block;
   margin-left: auto;
   margin-right: auto;
@@ -73,8 +72,10 @@ mark{
 @media screen and (min-width: 700px){
 	div{width:600px;}
 	nav li{display: inline-block;}
+	img{width:550px;}
 }
 
 @media screen and (max-width: 700px){
 	div{width:310px;}
+	img{width:290px;}
 }
