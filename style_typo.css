@@ -98,8 +98,9 @@ background-image: url("library/click_here_hover.png");
 .edit{
 	width: 100%;
 	outline: none;
-	font-size: 30px;
-	color: red;
+	font-family: none;
+  font-weight: bolder;
+  font-size: 45px;
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
