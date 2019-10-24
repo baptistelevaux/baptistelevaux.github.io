@@ -120,3 +120,10 @@ background-image: url("library/click_here_hover.png");
 	.intro{width: 300px; height: 60px;}
 	div{width:310px;}
 }
+
+::selection {
+  background: #ffff00;
+}
+::-moz-selection {
+  background: #ffff00;
+}
