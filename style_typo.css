@@ -132,4 +132,5 @@ background-image: url("library/click_here_hover.png");
 @media screen and (max-width: 450px){
 	.intro{width: 300px; height: 60px;}
 	div{width:310px;}
+	nav li{line-height: 200%;}
 }
