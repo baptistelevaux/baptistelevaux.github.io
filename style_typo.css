@@ -106,7 +106,7 @@ background-image: url("library/click_here_hover.png");
 }
 
 .edit:hover{
-	color: black;
+	color: red;
 	cursor: url(library/cursor/text.cur), default;
 }
 
