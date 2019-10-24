@@ -3,7 +3,6 @@
 div{
 	font-family: 'Source Code Pro', monospace;
 	font-size: 15px;
-	width: 600px;
 	margin: auto;
 }
 
@@ -32,7 +31,6 @@ ul{
 
 nav li{
 	list-style-type: none;
-	display: inline-block;
 }
 
 nav a{
@@ -76,8 +74,6 @@ background-image: url("library/logo_typo_hover.png");
 }
 
 .intro{
-	width: 400px;
-	height: 75px;
 	margin: 0;
 	background: url("library/click_here.png") no-repeat;
 	background-size: contain;
@@ -111,4 +107,15 @@ background-image: url("library/click_here_hover.png");
 .edit:hover{
 	color: black;
 	cursor: url(library/cursor/text.cur), default;
+}
+
+@media screen and (min-width: 700px){
+	.intro{width: 400px; height: 75px;}
+	div{width:600px;}
+	nav li{display: inline-block;}
+}
+
+@media screen and (max-width: 700px){
+	.intro{width: 300px; height: 60px;}
+	div{width:310px;}
 }
