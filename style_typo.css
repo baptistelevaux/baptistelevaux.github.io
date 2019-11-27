@@ -10,9 +10,7 @@ header{
 	margin-top: 20px;
 }
 
-p.preface{
-	margin-bottom: 40px;
-	font-weight: bolder;
+aside{
 }
 
 nav{
@@ -21,7 +19,6 @@ nav{
 	margin-left : -40px;
 	word-spacing: 20px;
 	margin-top: 40px;
-	margin-bottom: 40px;
 }
 
 ul{
@@ -56,6 +53,9 @@ section{
 	font-weight: normal;
 	text-align: justify;
   margin-bottom: 40px;
+	border: solid 2px;
+  border-color: black;
+  padding: 20px;
 }
 
 .card{
