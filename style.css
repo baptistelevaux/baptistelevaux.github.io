@@ -49,17 +49,6 @@ img{
   margin-right: auto;
 }
 
-.01{
-    width : 216px;
-    height : 216px;
-    display : block;
-    background : url("library/1A.png") no-repeat;
-}
-
-.01:hover{
-    background-image : url("library/1B.png");
-}
-
 section{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
