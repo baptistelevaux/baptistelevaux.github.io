@@ -59,6 +59,15 @@ section{
 	margin-bottom: 40px;
 }
 
+.title img{
+	width: 150px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 @media screen and (min-width: 700px){
 	div{width:600px;}
 	nav li{display: inline-block;}
