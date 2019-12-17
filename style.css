@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700,900');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400i&display=swap');
 
 div{
 	font-family: 'Source Code Pro', monospace;
@@ -50,8 +48,6 @@ img{
 }
 
 section{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
 	font-weight: lighter;
 	text-align: justify;
 	margin-bottom: 40px;
@@ -61,12 +57,6 @@ section{
 	list-style-type: none;
 	margin-left: -40px;
 	margin-bottom: 40px;
-}
-
-mark{
-	background-color: white;
-	font-family: 'Gentium Book Basic', serif;
-	font-style: italic;
 }
 
 @media screen and (min-width: 700px){
