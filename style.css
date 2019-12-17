@@ -54,6 +54,11 @@ section{
 	margin-bottom: 40px;
 }
 
+p{
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
 .about{
 	list-style-type: none;
 	margin-left: -40px;
