@@ -68,10 +68,10 @@ p{
 @media screen and (min-width: 700px){
 	div{width:600px;}
 	nav li{display: inline-block;}
-	img{width:250px;}
+	img{width:550px;}
 }
 
 @media screen and (max-width: 700px){
 	div{width:310px;}
-	img{width:150px;}
+	img{width:290px;}
 }
