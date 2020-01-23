@@ -1,4 +1,6 @@
 @font-face {font-family: "Calibri"; src: url("fonts/Calibri.woff") format("woff");}
 
-body{font-family: 'Calibri', monospace; color: #ff3300; font-size: 40px;}
+body{font-family: 'Calibri', monospace; font-size: 75px;}
 div{margin: 30px;}
+h1{font-size: 100px; margin-bottom: 10px;}
+nav{word-spacing: 50px;}
