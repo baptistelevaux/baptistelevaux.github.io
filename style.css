@@ -1,6 +1,13 @@
-@font-face {font-family: "Calibri"; src: url("fonts/Calibri.woff") format("woff");}
-
-body{font-family: 'Calibri', monospace; font-size: 75px;}
+body{font-family: sans-serif, monospace;
+	 font-size: 55px;
+     background-image: url("images/Tennis.png");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+     background-size: 40%;}
 div{margin: 30px;}
-h1{font-size: 100px; margin-bottom: 10px;}
-nav{word-spacing: 50px;}
+nav{font-size: 30px; word-spacing: 70px;}
+section{margin-bottom: 75px; margin-top: 75px;}
+h1{font-size: 70px; margin-top: 15px; margin-bottom: 15px;}
+p{margin: 0px;}
+footer{font-size: 30px;}
