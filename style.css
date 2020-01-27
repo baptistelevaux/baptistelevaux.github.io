@@ -1,39 +1,43 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
-  background-image: url("images/Chou-fleur.png");
+  background-image: url("images/Horn.png");
   background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
-nav{line-height: 60px; word-spacing: 50px;}
-section{margin-bottom: 75px; margin-top: 75px;}
+nav{font-size: 40px; line-height: 40px; word-spacing: 50px; margin-bottom: 40px;}
+section{margin-bottom: 75px;}
 h1{margin-top: 15px; margin-bottom: 15px;}
 p{margin: 0px;}
-footer{margin-top: 100px;}
+footer{margin-top: 100px; margin-bottom: 25px;}
+mark{background-color: rgba(255, 255, 255, 0);}
 
 /* PC */
 @media screen and (min-width: 900px){
-	body{background-size: 40%; font-size: 55px; background-attachment: fixed;}
+	body{background-size: 40%; font-size: 56px;}
 	div{margin: 30px;}
-	footer{font-size: 30px;}
 	nav a{display: inline-block;}
+	mark{font-size: 28px;}
+	footer{font-size: 30px;}
 }
 
 /* Tablette */
 @media screen and (min-width: 500px) and (max-width: 900px){
-	body{background-size: 60%; font-size: 30px; background-attachment: fixed;}
-	div{margin: 20px;}
+	body{background-size: 60%; font-size: 34px;}
+	div{margin: 22px;}
 	nav{text-align: center;}
 	nav a{display: block;}
-	footer{font-size: 18px; text-align: center;}
+	mark{font-size: 17px;}
+	footer{font-size: 20px; text-align: center;}
 }
 
 /* Smartphone */
 @media screen and (max-width: 500px){
-	body{background-size: 80%; font-size: 20px;}
-	div{margin: 10px;}
+	body{background-size: 80%; font-size: 22px;}
+	div{margin: 15px;}
 	nav{text-align: center;}
 	nav a{display: block;}
-	footer{font-size: 15px; text-align: center;}
+	mark{font-size: 11px;}
+	footer{font-size: 18px; text-align: center;}
 }
