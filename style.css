@@ -1,8 +1,7 @@
 body{
-	font-family: sans-serif, monospace;
+	font-family: sans-serif;
   background-image: url("images/Tube.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
 }
 
@@ -13,18 +12,30 @@ footer{margin-top: 100px;}
 
 /* PC */
 @media screen and (min-width: 900px){
-	body{background-size: 40%; font-size: 55px;}
+	body{background-size: 40%; font-size: 55px; background-attachment: fixed;}
 	div{margin: 30px;}
 	footer{font-size: 30px;}
 	nav a{display: inline-block;}
+	.index{background-image: url("content/Index.png"); width: 90%; margin-left: 30px;}
+	.index:hover{opacity: 0.3;}
+	.instagram{background-image: url("content/Instagram.png"); width: 90%; margin-left: 30px;}
+	.instagram:hover{opacity: 0.3;}
+	.work{background-image: url("content/Work.png"); width: 90%; margin-left: 30px;}
+	.work:hover{opacity: 0.3;}
 }
 
 /* Tablette */
 @media screen and (min-width: 500px) and (max-width: 900px){
-	body{background-size: 60%; font-size: 30px;}
+	body{background-size: 60%; font-size: 30px; background-attachment: fixed;}
 	div{margin: 20px;}
 	footer{font-size: 18px;}
 	nav a{display: inline-block;}
+	.index{background-image: url("content/Index.png"); width: 55%; margin-left: 20px;}
+	.index:hover{opacity: 0.3;}
+	.instagram{background-image: url("content/Instagram.png"); width: 55%; margin-left: 20px;}
+	.instagram:hover{opacity: 0.3;}
+	.work{background-image: url("content/Work.png"); width: 55%; margin-left: 20px;}
+	.work:hover{opacity: 0.3;}
 }
 
 /* Smartphone */
@@ -33,4 +44,10 @@ footer{margin-top: 100px;}
 	div{margin: 10px;}
 	footer{font-size: 12px;}
 	nav a{display: block;}
+	.index{background-image: url("content/Index.png"); width: 36%;}
+	.index:hover{opacity: 0.3;}
+	.instagram{background-image: url("content/Instagram.png"); width: 36%;}
+	.instagram:hover{opacity: 0.3;}
+	.work{background-image: url("content/Work.png"); width: 36%;}
+	.work:hover{opacity: 0.3;}
 }
