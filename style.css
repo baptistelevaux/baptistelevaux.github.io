@@ -1,12 +1,11 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
-  background-image: url("images/Horn.png");
+  background-image: url("images/Poubelle.png");
   background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
 
-nav{font-size: 40px; line-height: 40px; word-spacing: 50px; margin-bottom: 40px;}
 section{margin-bottom: 75px;}
 h1{margin-top: 15px; margin-bottom: 15px;}
 p{margin: 0px;}
@@ -17,6 +16,7 @@ mark{background-color: rgba(255, 255, 255, 0);}
 @media screen and (min-width: 900px){
 	body{background-size: 40%; font-size: 56px;}
 	div{margin: 30px;}
+	nav{word-spacing: 60px; margin-bottom: 75px;}
 	nav a{display: inline-block;}
 	mark{font-size: 28px;}
 	footer{font-size: 30px;}
@@ -26,8 +26,8 @@ mark{background-color: rgba(255, 255, 255, 0);}
 @media screen and (min-width: 500px) and (max-width: 900px){
 	body{background-size: 60%; font-size: 34px;}
 	div{margin: 22px;}
-	nav{text-align: center;}
-	nav a{display: block;}
+	nav{text-align: center; word-spacing: 45px; margin-bottom: 75px;}
+	nav a{display: inline-block;}
 	mark{font-size: 17px;}
 	footer{font-size: 20px; text-align: center;}
 }
@@ -36,7 +36,7 @@ mark{background-color: rgba(255, 255, 255, 0);}
 @media screen and (max-width: 500px){
 	body{background-size: 80%; font-size: 22px;}
 	div{margin: 15px;}
-	nav{text-align: center;}
+	nav{line-height: 40px; text-align: center; margin-bottom: 50px;}
 	nav a{display: block;}
 	mark{font-size: 11px;}
 	footer{font-size: 18px; text-align: center;}
