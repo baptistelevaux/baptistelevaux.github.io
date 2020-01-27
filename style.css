@@ -1,13 +1,25 @@
-body{font-family: sans-serif, monospace;
-	 font-size: 55px;
-     background-image: url("images/Tennis.png");
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-position: center;
-     background-size: 40%;}
-div{margin: 30px;}
-nav{font-size: 30px; word-spacing: 70px;}
+body{
+	font-family: sans-serif, monospace;
+  background-image: url("images/Cup.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+nav{word-spacing: 70px;}
 section{margin-bottom: 75px; margin-top: 75px;}
-h1{font-size: 70px; margin-top: 15px; margin-bottom: 15px;}
+h1{margin-top: 15px; margin-bottom: 15px;}
 p{margin: 0px;}
-footer{font-size: 30px;}
+
+@media screen and (min-width: 700px){
+	body{background-size: 40%; font-size: 55px;}
+	div{margin: 30px;}
+	nav{font-size: 30px;}
+	footer{font-size: 30px;}
+}
+
+@media screen and (max-width: 700px){
+	body{background-size: 80%; font-size: 30px;}
+	div{margin: 10px;}
+	footer{font-size: 15px;}
+}
