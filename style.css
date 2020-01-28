@@ -1,16 +1,15 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
-  background-image: url("images/Poubelle.png");
+  background-image: url("images/Fleurs.png");
   background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: 50% 50%;
 }
 
 section{margin-bottom: 75px;}
 h1{margin-top: 15px; margin-bottom: 15px;}
 p{margin: 0px;}
 footer{margin-top: 100px; margin-bottom: 25px;}
-mark{background-color: rgba(255, 255, 255, 0);}
 
 /* PC */
 @media screen and (min-width: 900px){
