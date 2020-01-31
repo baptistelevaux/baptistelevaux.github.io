@@ -1,43 +1,43 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 56px;
   background-image: url("library/background.gif");
 	background-color: #fbfbfb;
   background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	word-break: break-all;
+	hyphens: auto;
 }
 
 section{margin-bottom: 75px;}
+nav{margin-bottom: 75px;}
 h1{margin-top: 15px; margin-bottom: 15px;}
 p{margin: 0px;}
-footer{margin-top: 100px; margin-bottom: 25px;}
+footer{margin-top: 100px; margin-bottom: 25px; font-size: 30px;}
 
 /* PC */
 @media screen and (min-width: 900px){
-	body{background-size: 40%; font-size: 56px;}
-	div{margin: 30px;}
-	nav{word-spacing: 60px; margin-bottom: 75px;}
+	body{background-size: 40%;}
+	div{margin: 24px;}
+	nav{word-spacing: 60px;}
 	nav a{display: inline-block;}
-	mark{font-size: 28px;}
-	footer{font-size: 30px;}
 }
 
 /* Tablette */
 @media screen and (min-width: 500px) and (max-width: 900px){
-	body{background-size: 60%; font-size: 34px;}
-	div{margin: 22px;}
-	nav{text-align: center; word-spacing: 45px; margin-bottom: 75px;}
+	body{background-size: 60%;}
+	div{margin: 16px;}
+	nav{text-align: center; word-spacing: 60px;}
 	nav a{display: inline-block;}
-	mark{font-size: 17px;}
-	footer{font-size: 20px; text-align: center;}
+	footer{text-align: center;}
 }
 
 /* Smartphone */
 @media screen and (max-width: 500px){
-	body{background-size: 80%; font-size: 22px;}
-	div{margin: 15px;}
+	body{background-size: 80%;}
+	div{margin: 8px;}
 	nav{line-height: 40px; text-align: center; margin-bottom: 50px;}
 	nav a{display: block;}
-	mark{font-size: 11px;}
-	footer{font-size: 18px; text-align: center;}
+	footer{text-align: center;}
 }
