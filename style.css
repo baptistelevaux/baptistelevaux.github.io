@@ -7,6 +7,8 @@ body{
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	word-break: break-all;
+	-webkit-hyphens: auto;
+  -ms-hyphens: auto;
 	hyphens: auto;
 }
 
