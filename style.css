@@ -1,12 +1,16 @@
+html{
+	height: 100%;
+}
+
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	word-break: break-all;
 	font-size: 30px;
 	margin: 8px;
+	height: 100%;
 }
 
 .accueil{
-	height: 100%;
 	background-image: url("library/background.gif");
 	background-color: #fbfbfb;
   background-attachment: fixed;
@@ -33,7 +37,7 @@ p{
 }
 
 /* LINKS */
-a{
+section a{
 	color: black;
   text-decoration-line: none;
   border-bottom: 1px solid black;
@@ -56,13 +60,13 @@ a:visited{
 /* PC */
 @media screen and (min-width: 1000px){
 	body{background-size: 40%;}
-	div{display: inline-block; margin-left: 25px; margin-right: 25px;}
+	div{display: inline-block; margin-right: 50px;}
 }
 
 /* Tablette */
 @media screen and (min-width: 750px) and (max-width: 1000px){
 	body{background-size: 60%;}
-	div{display: inline-block; margin-left: 12px; margin-right: 12px;}
+	div{display: inline-block; margin-right: 25px;}
 }
 
 /* Smartphone */
