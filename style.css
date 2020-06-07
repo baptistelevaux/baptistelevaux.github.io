@@ -1,16 +1,8 @@
-html{
-	height: 100%;
-}
-
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	word-break: break-all;
 	font-size: 30px;
 	margin: 8px;
-	height: 100%;
-}
-
-.accueil{
 	background-image: url("library/background.gif");
 	background-color: #fbfbfb;
   background-attachment: fixed;
@@ -18,22 +10,17 @@ body{
 	background-position: 50% 50%;
 }
 
-.accueil a{
-	width: 100%;
-	height: 100%;
-}
-
-nav{
-	text-align: center;
-	margin-bottom: 75px;
-}
-
 section{
-	margin-bottom: 75px;
+	margin-top: 75px;
 }
 
 p{
 	margin: 0px;
+}
+
+footer{
+	font-size: 17px;
+	margin-top: 75px;
 }
 
 /* LINKS */
