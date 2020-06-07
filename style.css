@@ -26,24 +26,13 @@ p{
 	margin: 0px;
 }
 
-footer{
-	margin-top: 100px;
-	margin-bottom: 25px;
-	font-size: 15px;
-	text-align: center;
-	position: absolute;
-  width: 100%;
-  bottom: 0;
-	font-style: italic;
-}
-
 /* LINKS */
 a{
 	color: black;
   text-decoration-line: none;
   border-bottom: 1px solid black;
-	line-height: 35px;
-	font-size: 27px;
+	line-height: 30px;
+	font-size: 22px;
 	font-family: Times, serif;
 	font-style: italic;
 	display: inline-block;
@@ -61,17 +50,17 @@ a:visited{
 /* PC */
 @media screen and (min-width: 1000px){
 	body{background-size: 40%;}
-	nav div{display: inline-block; margin-left: 25px; margin-right: 25px;}
+	div{display: inline-block; margin-left: 25px; margin-right: 25px;}
 }
 
 /* Tablette */
 @media screen and (min-width: 750px) and (max-width: 1000px){
 	body{background-size: 60%;}
-	nav div{display: inline-block; margin-left: 12px; margin-right: 12px;}
+	div{display: inline-block; margin-left: 12px; margin-right: 12px;}
 }
 
 /* Smartphone */
 @media screen and (max-width: 750px){
 	body{background-size: 80%;}
-	nav div{display: block;}
+	div{display: block;}
 }
