@@ -20,7 +20,7 @@ p{
 
 footer{
 	font-size: 17px;
-	margin-top: 75px;
+	margin-top: 150px;
 }
 
 /* LINKS */
@@ -46,13 +46,13 @@ a:visited{
 
 /* PC */
 @media screen and (min-width: 1000px){
-	body{background-size: 40%;}
+	body{background-size: 30%;}
 	div{display: inline-block; margin-right: 50px;}
 }
 
 /* Tablette */
 @media screen and (min-width: 750px) and (max-width: 1000px){
-	body{background-size: 60%;}
+	body{background-size: 50%;}
 	div{display: inline-block; margin-right: 25px;}
 }
 
