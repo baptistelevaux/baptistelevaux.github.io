@@ -6,11 +6,17 @@ body{
 }
 
 .accueil{
+	height: 100%;
 	background-image: url("library/background.gif");
 	background-color: #fbfbfb;
   background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+}
+
+.accueil a{
+	width: 100%;
+	height: 100%;
 }
 
 nav{
