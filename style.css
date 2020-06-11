@@ -1,3 +1,5 @@
+@font-face{font-family: Jeannot; src: url(fonts/Jeannot.otf) format("opentype");}
+
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	word-break: break-all;
@@ -25,6 +27,13 @@ p{
 footer{
 	font-size: 17px;
 	margin-top: 150px;
+}
+
+.jeannot{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: Jeannot;
+	font-size: 42px;
 }
 
 [contenteditable] {
