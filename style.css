@@ -3,6 +3,9 @@ body{
 	word-break: break-all;
 	font-size: 30px;
 	margin: 8px;
+}
+
+.accueil{
 	background-image: url("library/background.gif");
 	background-color: #fbfbfb;
   background-attachment: fixed;
@@ -22,6 +25,10 @@ p{
 footer{
 	font-size: 17px;
 	margin-top: 150px;
+}
+
+[contenteditable] {
+  outline: 0px solid transparent;
 }
 
 /* LINKS */
