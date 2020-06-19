@@ -46,14 +46,6 @@ footer{
 	line-height: 50px;
 }
 
-.conjura{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	font-family: Conjura;
-	font-size: 62px;
-	line-height: 50px;
-}
-
 [contenteditable] {
   outline: 0px solid transparent;
 }
