@@ -79,6 +79,7 @@ a:visited{
 
 .pffffrt section a{
 	color: white;
+	border-bottom: 1px solid white;
 }
 
 .pffffrt a:hover{
