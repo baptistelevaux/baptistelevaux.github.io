@@ -51,6 +51,11 @@ footer{
   outline: 0px solid transparent;
 }
 
+.pffffrt{
+	background-color: black;
+	color: white;
+}
+
 /* LINKS */
 section a{
 	color: red;
@@ -70,6 +75,19 @@ a:hover{
 
 a:visited{
 	color: red;
+}
+
+.pffffrt section a{
+	color: white;
+}
+
+.pffffrt a:hover{
+	color: transparent;
+  text-shadow: 0 0 3px white;
+}
+
+.pffffrt a:visited{
+	color: white;
 }
 
 /* PC */
