@@ -82,6 +82,27 @@ a:visited{
 	color: red;
 }
 
+/* JEAN */
+
+.Jean{
+	background-color: #aca8b4;
+	color: #27ff00;
+}
+
+.Jean section a{
+	color: #27ff00;
+	border-bottom: 1px solid #27ff00;
+}
+
+.Jean a:hover{
+	color: transparent;
+  text-shadow: 0 0 3px #27ff00;
+}
+
+.Jean a:visited{
+	color: #27ff00;
+}
+
 /* PFFFFRT */
 
 .pffffrt{
