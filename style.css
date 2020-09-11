@@ -156,6 +156,11 @@ a:visited{
 	margin-bottom: 16px;
 }
 
+p.author{
+	font-family: Times, serif;
+	font-style: italic;
+}
+
 /* PC */
 @media screen and (min-width: 1000px){
 	body{background-size: 30%;}
