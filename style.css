@@ -51,11 +51,6 @@ footer{
   outline: 0px solid transparent;
 }
 
-.pffffrt{
-	background-color: black;
-	color: white;
-}
-
 ::-moz-selection{
   color: white;
   background: red;
@@ -87,6 +82,13 @@ a:visited{
 	color: red;
 }
 
+/* PFFFFRT */
+
+.pffffrt{
+	background-color: black;
+	color: white;
+}
+
 .pffffrt section a{
 	color: white;
 	border-bottom: 1px solid white;
@@ -99,6 +101,38 @@ a:visited{
 
 .pffffrt a:visited{
 	color: white;
+}
+
+/* LE MUR DES MALENTATIONS */
+
+.lamentations{
+	background-color: yellow;
+	color: #0066be;
+}
+
+.lamentations section a{
+	color: #0066be;
+	border-bottom: 1px solid #0066be;
+}
+
+.lamentations a:hover{
+	color: transparent;
+  text-shadow: 0 0 3px #0066be;
+}
+
+.lamentations a:visited{
+	color: #0066be;
+}
+
+.témoin{
+	font-size: 16px;
+	max-width: 1000px;
+	border-bottom: 1px solid #0066be;
+	padding-bottom: 30px;
+}
+
+.témoin p{
+	margin-bottom: 16px;
 }
 
 /* PC */
