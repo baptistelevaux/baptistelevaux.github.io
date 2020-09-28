@@ -34,6 +34,12 @@ h1{
 	margin: 0px;
 }
 
+h2{
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
 footer{
 	font-size: 17px;
 	margin-top: 150px;
@@ -61,11 +67,20 @@ footer{
   background: red;
 }
 
+.petit{
+	font-size: 16px;
+	max-width: 1000px;
+}
+
+.petit p{
+	margin-bottom: 20px;
+}
+
 /* LINKS */
 section a{
 	color: red;
-  text-decoration-line: none;
-  border-bottom: 1px solid red;
+    text-decoration-line: none;
+    border-bottom: 1px solid red;
 	line-height: 30px;
 	font-size: 22px;
 	font-family: Times, serif;
@@ -103,62 +118,25 @@ a:visited{
 	color: #27ff00;
 }
 
-/* PFFFFRT */
+/* curculanumvitatae */
 
-.pffffrt{
+.curculanumvitatae{
 	background-color: black;
 	color: white;
 }
 
-.pffffrt section a{
+.curculanumvitatae section a{
 	color: white;
 	border-bottom: 1px solid white;
 }
 
-.pffffrt a:hover{
+.curculanumvitatae a:hover{
 	color: transparent;
   text-shadow: 0 0 3px white;
 }
 
-.pffffrt a:visited{
+.curculanumvitatae a:visited{
 	color: white;
-}
-
-/* LE MUR DES MALENTATIONS */
-
-.lamentations{
-	background-color: yellow;
-	color: #0066be;
-}
-
-.lamentations section a{
-	color: #0066be;
-	border-bottom: 1px solid #0066be;
-}
-
-.lamentations a:hover{
-	color: transparent;
-  text-shadow: 0 0 3px #0066be;
-}
-
-.lamentations a:visited{
-	color: #0066be;
-}
-
-.témoin{
-	font-size: 16px;
-	max-width: 1000px;
-	border-bottom: 1px solid #0066be;
-	padding-bottom: 30px;
-}
-
-.témoin p{
-	margin-bottom: 16px;
-}
-
-p.author{
-	font-family: Times, serif;
-	font-style: italic;
 }
 
 /* PC */
