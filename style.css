@@ -139,6 +139,44 @@ a:visited{
 	color: white;
 }
 
+
+
+
+
+
+/* attendre */
+
+.attendre{
+	background-color: pink;
+	color: #28b40f;
+}
+
+.attendre section a{
+	color: #28b40f;
+	border-bottom: 1px solid #28b40f;
+}
+
+.attendre a:hover{
+	color: transparent;
+  text-shadow: 0 0 3px #28b40f;
+}
+
+.attendre a:visited{
+	color: #28b40f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* PC */
 @media screen and (min-width: 1000px){
 	body{background-size: 30%;}
