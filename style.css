@@ -162,6 +162,27 @@ a:visited{
 	color: #28b40f;
 }
 
+/* ERROR */
+
+.error{
+	background-color: #bfbfbf;
+	color: #5e5e5e;
+}
+
+.error section a{
+	color: #5e5e5e;
+	border-bottom: 1px solid #5e5e5e;
+}
+
+.error a:hover{
+	color: transparent;
+    text-shadow: 0 0 3px #5e5e5e;
+}
+
+.error a:visited{
+	color: #5e5e5e;
+}
+
 /* PC */
 
 @media screen and (min-width: 1000px){
