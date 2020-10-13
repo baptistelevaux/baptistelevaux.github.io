@@ -17,20 +17,16 @@ section{
 	margin-bottom: 50px;
 }
 
-p{
-	margin: 0px;
-}
-
 img{
 	float: left;
-  height: 100px;
-  margin-right: 22px;
-  display: inline-block;
+    height: 100px;
+    margin-right: 22px;
+    display: inline-block;
 }
 
 h1{
-  font-family: KeeponTruckin;
-  font-size: 110px;
+	font-family: KeeponTruckin;
+    font-size: 110px;
 	margin: 0px;
 }
 
@@ -40,31 +36,8 @@ h2{
 	margin-bottom: 5px;
 }
 
-footer{
-	font-size: 17px;
-	margin-top: 150px;
-}
-
-.jeannot{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	font-family: Jeannot;
-	font-size: 62px;
-	line-height: 50px;
-}
-
-[contenteditable] {
-  outline: 0px solid transparent;
-}
-
-::-moz-selection{
-  color: white;
-  background: red;
-}
-
-::selection{
-  color: white;
-  background: red;
+p{
+	margin: 0px;
 }
 
 .petit{
@@ -76,7 +49,24 @@ footer{
 	margin-bottom: 20px;
 }
 
+footer{
+	font-size: 17px;
+	margin-top: 150px;
+}
+
+
+::-moz-selection{
+	color: white;
+    background: red;
+}
+
+::selection{
+	color: white;
+    background: red;
+}
+
 /* LINKS */
+
 section a{
 	color: red;
     text-decoration-line: none;
@@ -90,7 +80,7 @@ section a{
 
 a:hover{
 	color: transparent;
-  text-shadow: 0 0 3px red;
+    text-shadow: 0 0 3px red;
 }
 
 a:visited{
@@ -111,14 +101,26 @@ a:visited{
 
 .Jean a:hover{
 	color: transparent;
-  text-shadow: 0 0 3px #27ff00;
+	text-shadow: 0 0 3px #27ff00;
 }
 
 .Jean a:visited{
 	color: #27ff00;
 }
 
-/* curculanumvitatae */
+.jeannot{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: Jeannot;
+	font-size: 62px;
+	line-height: 50px;
+}
+
+[contenteditable] {
+	outline: 0px solid transparent;
+}
+
+/* CURCULANUMVITATAE */
 
 .curculanumvitatae{
 	background-color: black;
@@ -132,19 +134,14 @@ a:visited{
 
 .curculanumvitatae a:hover{
 	color: transparent;
-  text-shadow: 0 0 3px white;
+    text-shadow: 0 0 3px white;
 }
 
 .curculanumvitatae a:visited{
 	color: white;
 }
 
-
-
-
-
-
-/* attendre */
+/* ATTENDRE */
 
 .attendre{
 	background-color: pink;
@@ -158,39 +155,27 @@ a:visited{
 
 .attendre a:hover{
 	color: transparent;
-  text-shadow: 0 0 3px #28b40f;
+    text-shadow: 0 0 3px #28b40f;
 }
 
 .attendre a:visited{
 	color: #28b40f;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* PC */
+
 @media screen and (min-width: 1000px){
-	body{background-size: 30%;}
 	div{display: inline-block; margin-right: 50px;}
 }
 
-/* Tablette */
+/* TABLETTE */
+
 @media screen and (min-width: 750px) and (max-width: 1000px){
-	body{background-size: 50%;}
 	div{display: inline-block; margin-right: 25px;}
 }
 
-/* Smartphone */
+/* SMARTPHONE */
+
 @media screen and (max-width: 750px){
-	body{background-size: 80%;}
 	div{display: block;}
 }
