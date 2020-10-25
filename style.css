@@ -1,27 +1,24 @@
 @font-face{font-family: Jeannot; src: url(fonts/Jeannot.otf) format("opentype");}
-@font-face{font-family: Conjura; src: url(fonts/Conjura.otf) format("opentype");}
 @font-face{font-family: KeeponTruckin; src: url(fonts/KeeponTruckin.ttf) format("truetype");}
-
+@font-face{font-family: Saint; src: url(fonts/aileron_regular.otf) format("opentype");}
 
 body{
-	color: red;
-	font-family: Arial, Helvetica, sans-serif;
-	word-break: break-all;
-	font-size: 30px;
-	margin: 8px;
+	margin: 10px;
+	font-family: Saint, Arial, Helvetica, sans-serif;
+	font-size: 27px;
 	background-color: #fbfbfb;
+	color: #00ea9e;
+	-ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+	display: none;
 }
 
 section{
 	margin-top: 25px;
 	margin-bottom: 50px;
-}
-
-img{
-	float: left;
-    height: 100px;
-    margin-right: 22px;
-    display: inline-block;
 }
 
 h1{
@@ -40,13 +37,9 @@ p{
 	margin: 0px;
 }
 
-.petit{
+.s{
 	font-size: 16px;
 	max-width: 1000px;
-}
-
-.petit p{
-	margin-bottom: 20px;
 }
 
 footer{
@@ -57,23 +50,21 @@ footer{
 
 
 ::-moz-selection{
-	color: white;
-    background: red;
+  color: white;
+  background-color: #c3c3c3;
 }
 
 ::selection{
-	color: white;
-    background: red;
+  color: white;
+  background-color: #c3c3c3;
 }
 
-/* LINKS */
-
 section a{
-	color: red;
-    text-decoration-line: none;
-    border-bottom: 1px solid red;
+	color: #00ea9e;
+    text-decoration: none;
+    border-bottom: 1px solid #00ea9e;
 	line-height: 30px;
-	font-size: 22px;
+	font-size: 24px;
 	font-family: Times, serif;
 	font-style: italic;
 	display: inline-block;
@@ -81,32 +72,7 @@ section a{
 
 a:hover{
 	color: transparent;
-    text-shadow: 0 0 3px red;
-}
-
-a:visited{
-	color: red;
-}
-
-/* JEAN */
-
-.Jean{
-	background-color: #aca8b4;
-	color: #27ff00;
-}
-
-.Jean section a{
-	color: #27ff00;
-	border-bottom: 1px solid #27ff00;
-}
-
-.Jean a:hover{
-	color: transparent;
-	text-shadow: 0 0 3px #27ff00;
-}
-
-.Jean a:visited{
-	color: #27ff00;
+    text-shadow: 0 0 4px #00ea9e;
 }
 
 .jeannot{
@@ -121,83 +87,20 @@ a:visited{
 	outline: 0px solid transparent;
 }
 
-/* CURCULANUMVITATAE */
-
-.curculanumvitatae{
-	background-color: black;
-	color: white;
-}
-
-.curculanumvitatae section a{
-	color: white;
-	border-bottom: 1px solid white;
-}
-
-.curculanumvitatae a:hover{
-	color: transparent;
-    text-shadow: 0 0 3px white;
-}
-
-.curculanumvitatae a:visited{
-	color: white;
-}
-
-/* ATTENDRE */
-
-.attendre{
-	background-color: pink;
-	color: #28b40f;
-}
-
-.attendre section a{
-	color: #28b40f;
-	border-bottom: 1px solid #28b40f;
-}
-
-.attendre a:hover{
-	color: transparent;
-    text-shadow: 0 0 3px #28b40f;
-}
-
-.attendre a:visited{
-	color: #28b40f;
-}
-
-/* ERROR */
-
-.error{
-	background-color: #bfbfbf;
-	color: #5e5e5e;
-}
-
-.error section a{
-	color: #5e5e5e;
-	border-bottom: 1px solid #5e5e5e;
-}
-
-.error a:hover{
-	color: transparent;
-    text-shadow: 0 0 3px #5e5e5e;
-}
-
-.error a:visited{
-	color: #5e5e5e;
-}
-
-/* PC */
+/* RESPONSIVE */
 
 @media screen and (min-width: 1000px){
 	div{display: inline-block; margin-right: 50px;}
 }
 
-/* TABLETTE */
-
 @media screen and (min-width: 750px) and (max-width: 1000px){
 	div{display: inline-block; margin-right: 25px;}
 }
 
-/* SMARTPHONE */
-
 @media screen and (max-width: 750px){
 	div{display: block;}
+}
+
+@media (prefers-color-scheme: dark) {
+  body{background-color: #35363a;}
 }
