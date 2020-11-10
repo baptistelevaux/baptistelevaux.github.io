@@ -140,6 +140,7 @@ a:hover{
 	font-family: Jeannot;
 	font-size: 62px;
 	line-height: 50px;
+	position: unset;
 }
 
 [contenteditable] {
