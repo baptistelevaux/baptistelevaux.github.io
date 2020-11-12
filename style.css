@@ -15,12 +15,23 @@ body{
 	word-break: break-all;
 	background-color: #fbfbfb;
 	color: #00ea9e;
-	-ms-overflow-style: none;
-    scrollbar-width: none;
 }
 
-body::-webkit-scrollbar{
-	display: none;
+::-webkit-scrollbar {
+	padding: 5px;
+	margin: 5px;
+	width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+	padding: 5px;
+	background: #00ea9e;
+	border-radius: 12px;
+	border: 4px solid #fbfbfb;
+}
+
+::-webkit-scrollbar-button {
+	background: #fbfbfb;
 }
 
 section{
