@@ -1,183 +1,50 @@
 @font-face{font-family: Jeannot; src: url(fonts/Jeannot.otf) format("opentype");}
-@font-face{font-family: KeeponTruckin; src: url(fonts/KeeponTruckin.ttf) format("truetype");}
-@font-face{font-family: Saint; src: url(fonts/aileron_regular.otf) format("opentype");}
-
-html{
-	width: 100%;
-	height: 100%;
-	margin: 0;
-}
 
 body{
-	margin: 0;
-	font-family: Saint, Arial, Helvetica, sans-serif;
-	font-size: 27px;
+	margin: 9px;
+	font-family: monospace;
+	font-size: 15px;
+	color: blue;
 	word-break: break-all;
-	background-color: #fbfbfb;
-	color: #00ea9e;
-}
-
-::-webkit-scrollbar {
-	padding: 5px;
-	margin: 5px;
-	width: 16px;
-}
-
-::-webkit-scrollbar-thumb {
-	padding: 5px;
-	background: #00ea9e;
-	border-radius: 12px;
-	border: 4px solid #fbfbfb;
-}
-
-::-webkit-scrollbar-button {
-	background: #fbfbfb;
-}
-
-section{
-	margin-top: 25px;
-	margin-bottom: 50px;
-	padding: 0px 10px 0px 10px;
 }
 
 div{
-	z-index: -1;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
+	width: 282px;
 }
 
-article{
-	width: 100%;
-	height: 100%;
+.jeannot{
+	font-family: Jeannot;
+	font-size: 35px;
+	background-color: yellow;
+	padding: 9px;
+	border: solid 2px;
 }
 
-article img{
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
+[contenteditable]{
+	outline: none;
 }
 
 button{
-	color: inherit;
-	background-color: rgba(0,0,0,0);
-	font-size: 40px;
-	padding: 20px;
-	border: none;
-	z-index: 2;
-	position: absolute;
-	width: 50%;
-	height: 100%;
-	outline:none;
-}
-
-button:hover{
+	color: blue;
+	background-color: yellow;
 	cursor: pointer;
-	color: transparent;
-    text-shadow: 0 0 4px #00ea9e;
-}
-
-.left{
-	left: 0;
-	text-align: left;
-}
-
-.right{
-	right: 0;
-	text-align: right;
-}
-
-footer{
-	font-size: 17px;
-	margin-top: 150px;
-	margin-bottom: 25px;
-	padding: 0px 10px 0px 10px;
-}
-
-h1{
-	font-family: KeeponTruckin;
-    font-size: 110px;
-	margin: 0px;
-}
-
-h2{
-	font-size: 30px;
-	font-weight: normal;
-	margin-bottom: 5px;
-}
-
-p{
-	margin: 0px;
-}
-
-.s{
-	font-size: 16px;
-	max-width: 1000px;
+	border: solid 1px;
+	outline: none;
 }
 
 a{
-	color: #00ea9e;
-    text-decoration: none;
-    border-bottom: 1px solid #00ea9e;
-	line-height: 30px;
-	font-size: 24px;
-	font-family: Times, serif;
-	font-style: italic;
-	display: inline-block;
-	margin-right: 50px;
+	background-color: yellow;
+	outline: 1px solid;
 }
 
-a:hover{
-	color: transparent;
-    text-shadow: 0 0 4px #00ea9e;
+button:hover , a:hover{
+	background-color: #db00ff;
 }
 
-::-moz-selection{
-  color: white;
-  background-color: #c3c3c3;
+button:visited , a:visited{
+	color: inherit;
 }
 
-::selection{
-  color: white;
-  background-color: #c3c3c3;
-}
-
-/* PAGES */
-
-.jeannot{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	font-family: Jeannot;
-	font-size: 62px;
-	line-height: 50px;
-	position: unset;
-}
-
-[contenteditable] {
-	outline: 0px solid transparent;
-}
-
-.showroom footer{
-	position: absolute;
-	bottom: 0;
-}
-
-.abt{
-	position: absolute;
-	text-align: right;
-	top: 60px;
+img{
 	width: 100%;
-	right: 10px;
-}
-
-/* RESPONSIVE */
-
-@media screen and (min-width: 1000px){
-}
-
-@media screen and (min-width: 750px) and (max-width: 1000px){
-}
-
-@media screen and (max-width: 750px){
 }
