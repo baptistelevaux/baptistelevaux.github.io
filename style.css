@@ -9,7 +9,7 @@ body{
 }
 
 div{
-	width: 282px;
+	max-width: 282px;
 }
 
 .jeannot{
@@ -47,4 +47,12 @@ button:visited , a:visited{
 
 img{
 	width: 100%;
+}
+
+@media screen and (max-width: 444px){
+	div{
+		max-width: 292px;
+		position: relative;
+		margin: auto;
+	}
 }
