@@ -1,7 +1,11 @@
 @font-face{font-family: Jeannot; src: url(fonts/Jeannot.otf) format("opentype");}
 
+html , body{
+	height: 100%;
+}
+
 body{
-	margin: 9px;
+	margin: 0;
 	font-family: monospace;
 	font-size: 15px;
 	color: blue;
@@ -9,7 +13,14 @@ body{
 }
 
 div{
+	position: relative;
+	padding: 0 4px;
+	margin: 0 9px;
+	display: inline-block;
+	float: left;
 	max-width: 282px;
+	height: 100%;
+	overflow:auto;
 }
 
 .jeannot{
@@ -61,10 +72,36 @@ img{
 	width: 100%;
 }
 
-@media screen and (max-width: 444px){
+@media screen and (max-width: 620px){
 	div{
-		max-width: 312px;
+		display: block;
+		float: none;
+		max-width: 300px;
 		position: relative;
-		margin: auto;
-	}
+		margin: auto;}
+	.menu{
+		height: 300px;
+		margin-bottom: 10px;
+		padding-bottom: 10px;}
+}
+
+::-webkit-scrollbar {
+   -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+   width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: yellow;
+   border: 1px solid blue;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background-color: #db00ff;
+}
+
+::-webkit-scrollbar-track {  
+   border: 1px solid blue;
 }
