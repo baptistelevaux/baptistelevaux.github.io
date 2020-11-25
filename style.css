@@ -27,16 +27,16 @@ div{
 .jeannot{
 	font-family: Jeannot;
 	font-size: 35px;
-	
 	padding: 9px;
 	border: solid 1px;
+	margin-bottom: 20px;
 }
 
 @keyframes blinkingBackground{
-		0%		{ background-color: yellow;}
-		33%		{ background-color: white;}
-		66%		{ background-color: yellow;}
-		99%		{ background-color: white;}
+		0%		{ background-color: #77F0FF;}
+		33.33%		{ background-color: white;}
+		66.66%		{ background-color: #77F0FF;}
+		99.99%		{ background-color: white;}
 	}
 
 [contenteditable]{
