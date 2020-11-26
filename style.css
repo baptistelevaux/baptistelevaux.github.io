@@ -2,6 +2,7 @@
 
 html , body{
 	height: 100%;
+	width: 100%;
 }
 
 body{
@@ -48,20 +49,12 @@ div{
 	animation: white;
 }
 
-button{
-	color: blue;
-	background-color: yellow;
-	cursor: pointer;
-	border: solid 1px;
-	outline: none;
-}
-
 a{
 	background-color: yellow;
 	outline: 1px solid;
 }
 
-button:hover , a:hover{
+button:hover > p, a:hover{
 	background-color: #db00ff;
 }
 
@@ -71,6 +64,28 @@ button:visited , a:visited{
 
 img{
 	width: 100%;
+}
+
+button{
+	color: blue;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid;
+	text-align: left;
+	font-family: monospace;
+	text-decoration: underline;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+button p{
+	margin: 0;
+	background-color: yellow;
+}
+
+#curiculumvitae , #showroom , #latypodejean , #enconstruction{
+	display: none;
 }
 
 @media screen and (max-width: 620px){
@@ -95,9 +110,19 @@ img{
    width: 10px;
 }
 
+::-webkit-scrollbar:horizontal {
+   height: 10px;
+}
+
 ::-webkit-scrollbar-thumb {
    background-color: yellow;
    border: 1px solid blue;
+}
+
+::-webkit-scrollbar-corner {
+   background-color: yellow;
+   border-right: 1px solid blue;
+   border-bottom: 1px solid blue;
 }
 
 ::-webkit-scrollbar-thumb:hover {
