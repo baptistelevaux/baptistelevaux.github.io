@@ -84,10 +84,6 @@ button p{
 	background-color: yellow;
 }
 
-#curiculumvitae , #showroom , #latypodejean , #enconstruction , #turbodrift , #supervue , #knockoutsidermagazine , #telekom{
-	display: none;
-}
-
 @media screen and (max-width: 620px){
 	div{
 		display: block;
