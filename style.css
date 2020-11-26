@@ -76,7 +76,7 @@ button{
 	text-decoration: underline;
 	font-size: 15px;
 	padding: 0;
-	margin: 0;
+	margin: 6px 0 0 0;
 }
 
 button p{
@@ -84,7 +84,7 @@ button p{
 	background-color: yellow;
 }
 
-#curiculumvitae , #showroom , #latypodejean , #enconstruction{
+#curiculumvitae , #showroom , #latypodejean , #enconstruction , #turbodrift{
 	display: none;
 }
 
