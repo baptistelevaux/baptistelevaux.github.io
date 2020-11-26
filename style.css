@@ -84,7 +84,7 @@ button p{
 	background-color: yellow;
 }
 
-#curiculumvitae , #showroom , #latypodejean , #enconstruction , #turbodrift{
+#curiculumvitae , #showroom , #latypodejean , #enconstruction , #turbodrift , #supervue , #knockoutsidermagazine , #telekom{
 	display: none;
 }
 
@@ -95,9 +95,9 @@ button p{
 		max-width: 300px;
 		position: relative;
 		margin: auto;
-	    height: 70%;}
+	    height: 65%;}
 	.menu{
-		height: calc(30% - 20px);
+		height: calc(35% - 20px);
 		margin-bottom: 10px;
 		padding-bottom: 10px;}
 }
