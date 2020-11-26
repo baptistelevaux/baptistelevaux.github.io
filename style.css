@@ -50,6 +50,7 @@ div{
 }
 
 a{
+	line-height: 28px;
 	background-color: yellow;
 	outline: 1px solid;
 }
@@ -106,19 +107,9 @@ button p{
    width: 10px;
 }
 
-::-webkit-scrollbar:horizontal {
-   height: 10px;
-}
-
 ::-webkit-scrollbar-thumb {
    background-color: yellow;
    border: 1px solid blue;
-}
-
-::-webkit-scrollbar-corner {
-   background-color: yellow;
-   border-right: 1px solid blue;
-   border-bottom: 1px solid blue;
 }
 
 ::-webkit-scrollbar-thumb:hover {
