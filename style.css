@@ -10,7 +10,6 @@ body{
 	font-family: monospace;
 	font-size: 15px;
 	color: blue;
-	word-break: break-all;
 }
 
 div{
@@ -19,34 +18,9 @@ div{
 	margin: 0 9px;
 	display: inline-block;
 	float: left;
-	max-width: 282px;
 	height: 92%;
 	margin-top: 2%;
 	overflow:auto;
-}
-
-.jeannot{
-	font-family: Jeannot;
-	font-size: 35px;
-	padding: 9px;
-	border: solid 1px;
-	margin-bottom: 20px;
-}
-
-@keyframes blinkingBackground{
-		0%		{ background-color: #77F0FF;}
-		33.33%		{ background-color: white;}
-		66.66%		{ background-color: #77F0FF;}
-		99.99%		{ background-color: white;}
-	}
-
-[contenteditable]{
-	animation: blinkingBackground 0.3s infinite;
-	outline: none;
-}
-
-[contenteditable]:hover{
-	animation: white;
 }
 
 a{
@@ -55,16 +29,16 @@ a{
 	outline: 1px solid;
 }
 
+img{
+	width: 100%;
+}
+
 button:hover > p, a:hover{
 	background-color: #db00ff;
 }
 
 button:visited , a:visited{
 	color: inherit;
-}
-
-img{
-	width: 100%;
 }
 
 button{
@@ -85,19 +59,22 @@ button p{
 	background-color: yellow;
 }
 
-@media screen and (max-width: 620px){
-	div{
-		display: block;
-		float: none;
-		max-width: 300px;
-		position: relative;
-		margin: auto;
-	    height: 65%;}
-	.menu{
-		height: calc(35% - 20px);
-		margin-bottom: 10px;
-		padding-bottom: 10px;}
+/*********************************************************************/
+
+@media screen and (min-width: 1250px){
+	div{width: 30%;}
 }
+
+@media screen and (min-width: 700px) and (max-width: 1250px){
+	div{width: calc(50% - 30px);}
+}
+
+@media screen and (max-width: 700px){
+	div{display: block; float: none; width: calc(100% - 30px); position: relative; margin: auto; height: 65%;}
+	.menu{ height: calc(35% - 20px); margin-bottom: 10px; padding-bottom: 10px;}
+}
+
+/*********************************************************************/
 
 ::-webkit-scrollbar {
    -webkit-appearance: none;
@@ -118,4 +95,31 @@ button p{
 
 ::-webkit-scrollbar-track {  
    border: 1px solid blue;
+}
+
+/*********************************************************************/
+
+.jeannot{
+	font-family: Jeannot;
+	width: 90%;
+	font-size: 35px;
+	padding: 9px;
+	border: solid 1px;
+	margin-bottom: 20px;
+}
+
+@keyframes blinkingBackground{
+		0%		{ background-color: #77F0FF;}
+		33.33%		{ background-color: white;}
+		66.66%		{ background-color: #77F0FF;}
+		99.99%		{ background-color: white;}
+	}
+
+[contenteditable]{
+	animation: blinkingBackground 0.3s infinite;
+	outline: none;
+}
+
+[contenteditable]:hover{
+	animation: white;
 }
