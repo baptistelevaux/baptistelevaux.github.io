@@ -1,4 +1,13 @@
 @font-face{font-family: Jeannot; src: url(fonts/Jeannot.otf) format("opentype");}
+@font-face{font-family: JeanII; src: url(fonts/JeanII.otf) format("opentype");}
+
+@font-face{font-family: Gabi; src: url(fonts/Gabi.otf) format("opentype");}
+@font-face{font-family: Gabii; src: url(fonts/Gabii.otf) format("opentype");}
+@font-face{font-family: Gabiii; src: url(fonts/Gabiii.otf) format("opentype");}
+@font-face{font-family: Gabiiii; src: url(fonts/Gabiiii.otf) format("opentype");}
+@font-face{font-family: Gabiiiii; src: url(fonts/Gabiiiii.otf) format("opentype");}
+
+@font-face{font-family: Flo; src: url(fonts/Flo.otf) format("opentype");}
 
 html , body{
 	height: 100%;
@@ -99,16 +108,49 @@ button p{
 
 /*********************************************************************/
 
-.jeannot{
-	font-family: Jeannot;
+
+#fonte{
 	width: 90%;
+	height: 300px;
 	font-size: 35px;
 	padding: 9px;
 	border: solid 1px;
 	margin-bottom: 20px;
 }
 
-@keyframes blinkingBackground{
+.jeannot{
+	font-family: Jeannot;
+}
+
+.jeanii{
+	font-family: JeanII;
+}
+
+.gabi{
+	font-family: Gabi;
+}
+
+.gabii{
+	font-family: Gabii;
+}
+
+.gabiii{
+	font-family: Gabiii;
+}
+
+.gabiiii{
+	font-family: Gabiiii;
+}
+
+.gabiiiii{
+	font-family: Gabiiiii;
+}
+
+.flo{
+	font-family: Flo;
+}
+
+keyframes blinkingBackground{
 		0%		{ background-color: #77F0FF;}
 		33.33%		{ background-color: white;}
 		66.66%		{ background-color: #77F0FF;}
