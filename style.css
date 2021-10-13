@@ -1,143 +1,25 @@
-@font-face{font-family: Marko_Une; src: url(fonts/Marko_Une.otf) format("opentype");}
-@font-face{font-family: Marko_Deux; src: url(fonts/Marko_Deux.otf) format("opentype");}
-@font-face{font-family: Marko_Trois; src: url(fonts/Marko_Trois.otf) format("opentype");}
+body{margin: 10px; font-family: monospace; font-size: 12.5px;}
+main{display: grid; grid-gap: 10px;}
 
-@font-face{font-family: Madmaxi_Classique; src: url(fonts/Madmaxi_Classique.otf) format("opentype");}
-@font-face{font-family: Madmaxi_Italic; src: url(fonts/Madmaxi_Italic.otf) format("opentype");}
-@font-face{font-family: Madmaxi_Legere; src: url(fonts/Madmaxi_Legere.otf) format("opentype");}
-@font-face{font-family: Madmaxi_Temblante; src: url(fonts/Madmaxi_Temblante.otf) format("opentype");}
-@font-face{font-family: Madmaxi_Baveuse; src: url(fonts/Madmaxi_Baveuse.otf) format("opentype");}
+p{margin-right: 25px;}
+a{color: blue;}
+a:hover{color: #ff00ff;}
+b{font-size: 16px;}
 
-@font-face{font-family: Jeannot; src: url(fonts/Jeannot.otf) format("opentype");}
-@font-face{font-family: Jean_II; src: url(fonts/Jean_II.otf) format("opentype");}
+img{width: 80%;}
 
-@font-face{font-family: Gabi; src: url(fonts/Gabi.otf) format("opentype");}
-@font-face{font-family: Gabii; src: url(fonts/Gabii.otf) format("opentype");}
-@font-face{font-family: Gabiii; src: url(fonts/Gabiii.otf) format("opentype");}
-@font-face{font-family: Gabiiii; src: url(fonts/Gabiiii.otf) format("opentype");}
-@font-face{font-family: Gabiiiii; src: url(fonts/Gabiiiii.otf) format("opentype");}
+.dead-link{color: black; cursor: not-allowed;}
+.link{line-height: 22px;}
 
-@font-face{font-family: Flo; src: url(fonts/Flo.otf) format("opentype");}
+/********** RESPONSIVE *************************************/  
 
-/********************************************************************************/
-
-body{
-	font-family: monospace;
-	font-size: 15px;
-	color: blue;
-}
-
-img.small{width: 200px; margin: 12px 0; }
-img.medium{width: 50%;}
-
-a{
-	line-height: 28px;
-	background-color: yellow;
-	outline: 1px solid;
-	padding: 1px 3px;
-}
-
-button{
-	color: blue;
-	background-color: yellow;
-	border: 1px solid blue;
-	padding: 0px 3px 1px 3px;
-	margin-bottom: 12px;
-	text-decoration: underline;
-	font-family: monospace;
-	font-size: 15px;
-}
-
-a:hover, button:hover{background-color: #db00ff; cursor: pointer;}
-a:visited, button:visited{color: blue;}
-button{appearance: none; -moz-appearance: none; -webkit-appearance: none;}
-
-b{font-size: 18px;}
-span{color: white;}
-
-#blinkbitch{animation: blinker 1s linear infinite;}
-
-@keyframes blinker {50% {opacity: 0;}}
-
-/********************************************************************************/
-
-section{max-width: 850px;}
-
-section.menu{
-	padding: 4px 0px 40px 0px;
-	border-bottom: 1px dashed;
-}
-
-section.head{
-	text-align: right;
-	margin-top: 1px;
-	border-top: 1px dashed;
-}
-
-section.text, section.showroom{border-bottom: 1px dashed;}
-
-section.foot{
-	margin-top: 1px;
-	border-top: 1px dashed;
-	padding-top: 40px;
-}
-
-/********************************************************************************/
-
-::-webkit-scrollbar {-webkit-appearance: none;}
-::-webkit-scrollbar:vertical {width: 12px;}
-::-webkit-scrollbar-thumb:hover {background-color: #db00ff;}
-::-webkit-scrollbar-track {border-left: 1px solid blue;}
-::-webkit-scrollbar-thumb {
-	background-color: yellow;
-	border-left: 1px solid blue;
-	border-top: 1px solid blue;
-	border-bottom: 1px solid blue;
-}
-
-/********************************************************************************/
-
-#fonte{
-	width: 100%;
-	margin-bottom: 12px;
-	color: #db00ff;
-}
-
-[contenteditable]{outline: none;}
-
-.marko{font-family: Marko_Une; font-size: 30px;}
-.markoo{font-family: Marko_Deux; font-size: 30px;}
-.markooo{font-family: Marko_Trois; font-size: 30px;}
-
-.madmaxi_classique{font-family: Madmaxi_Classique; font-size: 37px;}
-.madmaxi_italic{font-family: Madmaxi_Italic; font-size: 37px;}
-.madmaxi_legere{font-family: Madmaxi_Legere; font-size: 37px;}
-.madmaxi_tremblante{font-family: Madmaxi_Tremblante; font-size: 37px;}
-.madmaxi_baveuse{font-family: Madmaxi_Baveuse; font-size: 37px;}
-
-.jeannot{font-family: Jeannot; font-size: 40px;}
-.jeannoot{font-family: Jean_II; font-size: 55px; line-height: 45px;}
-
-.gabi{font-family: Gabi; font-size: 40px;}
-.gabii{font-family: Gabii; font-size: 40px;}
-.gabiii{font-family: Gabiii; font-size: 40px;}
-.gabiiii{font-family: Gabiiii; font-size: 40px;}
-.gabiiiii{font-family: Gabiiiii; font-size: 40px;}
-
-.flo{font-family: Flo; font-size: 55px;}
-
-/********************************************************************************/
-
-article{text-align: center;}
-article p{text-align: left;}
-
-/********************************************************************************/
-
-@media screen and (min-width: 950px){
-	body{margin: 85px 15px 100px 10%;}
-	img.medium{width: 50%;}}
-@media screen and (max-width: 950px){
-	body{margin: 85px 15px 100px 15px;}
-    img.medium{width: 80%;}}
-
-/********************************************************************************/
+@media screen and (min-width: 1650px){
+	main{grid-template-columns: repeat(5, 1fr);}}
+@media screen and (max-width: 1650px) and (min-width: 1250px){
+	main{grid-template-columns: repeat(4, 1fr);}}
+@media screen and (max-width: 1250px) and (min-width: 950px){
+	main{grid-template-columns: repeat(3, 1fr);}}
+@media screen and (max-width: 950px) and (min-width: 620px){
+	main{grid-template-columns: repeat(2, 1fr);}}
+@media screen and (max-width: 620px){
+	main{grid-template-columns: repeat(1, 1fr);}}
