@@ -1,12 +1,13 @@
 body{margin: 10px; font-family: monospace; font-size: 12.5px;}
 main{display: grid; grid-gap: 10px;}
+nav{float:  right; margin-top: -44px;}
 
 p{margin-right: 25px;}
 a{color: blue;}
 a:hover{color: #ff00ff;}
 b{font-size: 16px;}
 
-img{width: 80%;}
+img{width: 22px; border: 1px black solid;}
 
 .dead-link{color: black; cursor: not-allowed;}
 .link{line-height: 22px;}
