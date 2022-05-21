@@ -1,26 +1,11 @@
 body{margin: 10px; font: 12.5px Courier, monospace;}
-main{display: grid; grid-gap: 10px;}
-nav{float:  right; margin-top: -44px;}
 
-p{margin-right: 25px;}
-a{color: blue;}
-a:hover{color: #ff00ff;}
-b{font-size: 16px;}
+nav.taal{float: right; word-spacing: 20px;}
+nav.taal img{width: 22px; border: 1px black solid;}
 
-img{width: 22px; border: 1px black solid;}
+nav.menu{line-height: 17.5px;}
 
-.dead-link{color: black; cursor: not-allowed;}
-.link{line-height: 22px;}
+footer{position: absolute; bottom: 0;}
 
-/********** RESPONSIVE *************************************/  
-
-@media screen and (min-width: 1650px){
-	main{grid-template-columns: repeat(5, 1fr);}}
-@media screen and (max-width: 1650px) and (min-width: 1250px){
-	main{grid-template-columns: repeat(4, 1fr);}}
-@media screen and (max-width: 1250px) and (min-width: 950px){
-	main{grid-template-columns: repeat(3, 1fr);}}
-@media screen and (max-width: 950px) and (min-width: 620px){
-	main{grid-template-columns: repeat(2, 1fr);}}
-@media screen and (max-width: 620px){
-	main{grid-template-columns: repeat(1, 1fr);}}
+a{color: inherit;}
+a:hover{color: blue;}
