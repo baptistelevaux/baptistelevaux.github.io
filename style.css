@@ -2,8 +2,12 @@ body{margin: 10px; font: 12.5px Courier, monospace;}
 
 nav.taal{float: right; word-spacing: 20px;}
 nav.taal img{width: 22px; border: 1px black solid;}
+nav.menu{line-height: 22.5px;}
 
-nav.menu{line-height: 17.5px;}
+main{max-width: 1000px;}
+footer{margin-top: 50px;}
 
 a{color: inherit;}
-a:hover{color: blue;}
+a:hover{color: #c8c8c8;}
+
+span{background-color: #fcffc4;}
