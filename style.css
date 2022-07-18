@@ -9,5 +9,6 @@ footer{margin-top: 50px;}
 
 a{color: inherit;}
 a:hover{color: #c8c8c8;}
+a.dead-link{color: black; cursor: not-allowed;}
 
 span{background-color: #fcffc4;}
