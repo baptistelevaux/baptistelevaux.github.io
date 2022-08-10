@@ -29,54 +29,136 @@
         </script>
     </head>
     <body>
-        <nav class="taal">
-            <a href="index">fr</a> /
-            <a href="it">it</a> /
-            <a href="en">en</a>
+        <nav>
+            <button onclick="showFr()">fr</button>
+            <button onclick="showIt()">it</button>
         </nav>
+
+        <script>
+            function showFr(){
+                var x = document.getElementById("fra");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "block";
+                }
+                var x = document.getElementById("ita");
+                if (x.style.display === "none") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+
+            function showIt(){
+                var x = document.getElementById("fra");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "none";
+                }
+                var x = document.getElementById("ita");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
 
         <header>
-            <p>baptiste saint levaux</p>
+            <p>Baptiste Saint Levaux</p>
         </header>
 
-        <nav class="menu">
-            <p>be <a href="tel:+32484352119">+32 484 35 21 19</a>
-            <br>it <a href="tel:+32484352119">+39 3791 6180 69</a>
-            <br><a href="mailto:baptiste.levaux@gmail.com">baptiste.levaux@gmail.com</a></p>
-        </nav>
+        <main id="fra">
 
-        <main>
-            <p><span>edition</span>
-            <br>‘il divino inciampare’ miguel angel valdivia, le frémok, bruxelles 2022
-            <br>'le livre des îles' inès rousset & simon burger, le monte-en-l’air, paris 2022
-            <br>‘ostende’ dominique gobelet, le frémok, bruxelles 2021
-            <br>‘montrez nous qu'on a tort’ géraldine stringer, le frémok, bruxelles 2021
-            <br>‘remercier chaque jour’ valfret aspératus, knock outsider, bruxelles 2021
-            <br>‘i am the eye climax’ pakito bolino & pascal leyder, le frémok, bruxelles 2021
-            <br>‘les nouveaux ordres’ aurélie william levaux, le monte-en-l’air, paris 2021
-            <br>‘la poutre de mon oeil’ aurélie william levaux, le monte-en-l’air, paris 2021
-            <br>‘le cheikh hyperactif’ marko turunen, le frémok, bruxelles 2021
-            <br>'mad maxi-jack' etienne beck, le frémok, bruxelles 2021
-            <br>‘tout le monde est au courant de rien’ benoit montjoie, le frémok, bruxelles 2020
-            <br>‘le jour de travail’ aurélie william levaux, le monte-en-l’air, paris 2019
-            <br>‘la poutre de mon oeil’ aurélie william levaux, le monte-en-l’air, paris 2019</p>
+            <section>
+                <p>BE <a href="tel:+32484352119">+32 484 35 21 19</a>
+                <br>IT <a href="tel:+32484352119">+39 3791 6180 69</a>
+                <br><a href="mailto:baptiste.levaux@gmail.com">baptiste.levaux@gmail.com</a></p> 
+            </section>
 
-            <p><span>graphisme</span>
-            <br>polaris editore, bologna 2022-...
-            <br>or bor - revue brut, bruxelles 2021-...
-            <br>knock outsider magazine - la «s» grand atelier & le frémok, vielsalm 2020</p>
+            <section>
+                <p>[à paraitre] "Le divin trébuchement" Miguel Angel Valdivia, Le Frémok, Bruxelles 2022</p>
 
-            <p><span>direction com.</span>
-            <br>supervue festival - art & musique, liège 2019-...</p>
+                <p>[à paraitre] "J'ai vu des vêtements sauvages" Inès Rousset & Simon Burger, Le Monte-en-l’air, Paris 2022</p>
 
-            <p><span>expositions collectives</span>
-            <br>la remise 1, la remise, liège 2021
-            <br>ravieversaire III, biestebroeck bis, bruxelles 2021
-            <br>la fête du slip, zone-art, liège 2020</p>
+                <p>[à paraitre] "Or Bor #8 Jan Bucquoy", Images, Bruxelles 2021</p>
 
-            <p><span>imprimerie</span>
-            <br>dejardin sa, liège 2021-2022
-            <br>esa saint-luc, liège 2021</p>
+                <p><a href="https://orbor.wordpress.com/catalogue-or-bor/">"Or Bor #7 Valfret"</a>, Images, Bruxelles 2021</p>
+
+                <p><a href="https://orbor.wordpress.com/catalogue-or-bor/">"Or Bor #3 Pascal Leyder"</a>, Images, Bruxelles 2021</p>
+
+                <p><a href="https://www.fremok.org/site.php?type=P&id=370">"Ostende-carnets"</a> Dominique Gobelet, Le Frémok, Bruxelles 2021</p>
+
+                <p><a href="https://www.fremok.org/site.php?type=P&id=367">"Montrez nous qu'on a tort"</a> Géraldine Stringer, Le Frémok, Bruxelles 2021</p>
+
+                <p><a href="https://telekom.knockoutsider.org/remercier">"Remercier chaque jour"</a> Valfret Aspératus, Knock Outsider Magazine, Bruxelles 2021</p>
+
+                <p><a href="https://www.fremok.org/site.php?type=P&id=362">"I am the eye climax"</a> Pakito Bolino & Pascal Leyder, Le Frémok, Bruxelles 2021</p>
+
+                <p><a href="https://montenlair.fr/livre/les-nouveaux-ordres/">"Les nouveaux ordres"</a> Aurélie William Levaux, Le Monte-en-l’air, Paris 2021</p>
+
+                <p><a href="https://www.fremok.org/site.php?type=P&id=357">"Le Cheikh hyperactif"</a> Marko Turunen, Le Frémok, Bruxelles 2021</p>
+
+                <p><a href="https://www.fremok.org/site.php?type=P&id=361">"Mad Maxi-Jack"</a> Etienne Beck, Le Frémok, Bruxelles 2021</p>
+
+                <p>[à paraitre] "Tout le monde est au courant de rien" Benoit Montjoie, Knock Outsider Magazine, Bruxelles 2020</p>
+
+                <p><a href="https://montenlair.fr/livre/le-jour-de-travail/">"Le jour de travail"</a> Aurélie William Levaux, Le Monte-en-l’air, Paris 2019</p>
+
+                <p><a href="https://montenlair.fr/livre/la-poutre-de-mon-oeil/">"La poutre de mon oeil"</a> Aurélie William Levaux, Le Monte-en-l’air, Paris 2019</p>
+            </section>
+
+            <section>
+                <p>Polaris Editore, Bologne</p>
+                <p>Supervue Festival, Liège</p>
+            </section>
+        </main>
+
+        <main id="ita">
+            <section>
+                <p>BE <a href="tel:+32484352119">+32 484 35 21 19</a>
+                <br>IT <a href="tel:+32484352119">+39 3791 6180 69</a>
+                <br><a href="mailto:baptiste.levaux@gmail.com">baptiste.levaux@gmail.com</a></p> 
+            </section>
+
+            <section>
+                <p>[in uscita] "Le divin trébuchement" Miguel Angel Valdivia, Le Frémok, Bruxelles 2022</p>
+
+                <p>[in uscita] "J'ai vu des vêtements sauvages" Inès Rousset & Simon Burger, Le Monte-en-l’air, Parigi 2022</p>
+
+                <p>[in uscita] "Or Bor #8 Jan Bucquoy", Images, Bruxelles 2021</p>
+
+                <p><a href="https://orbor.wordpress.com/catalogue-or-bor/">"Or Bor #7 Valfret"</a>, Images, Bruxelles 2021</p>
+
+                <p><a href="https://orbor.wordpress.com/catalogue-or-bor/">"Or Bor #3 Pascal Leyder"</a>, Images, Bruxelles 2021</p>
+
+                <p><a href="https://www.fremok.org/site.php?type=P&id=370">"Ostende-carnets"</a> Dominique Gobelet, Le Frémok, Bruxelles 2021</p>
+
+                <p><a href="https://www.fremok.org/site.php?type=P&id=367">"Montrez nous qu'on a tort"</a> Géraldine Stringer, Le Frémok, Bruxelles 2021</p>
+
+                <p><a href="https://telekom.knockoutsider.org/remercier">"Remercier chaque jour"</a> Valfret Aspératus, Knock Outsider Magazine, Bruxelles 2021</p>
+
+                <p><a href="https://www.fremok.org/site.php?type=P&id=362">"I am the eye climax"</a> Pakito Bolino & Pascal Leyder, Le Frémok, Bruxelles 2021</p>
+
+                <p><a href="https://montenlair.fr/livre/les-nouveaux-ordres/">"Les nouveaux ordres"</a> Aurélie William Levaux, Le Monte-en-l’air, Parigi 2021</p>
+
+                <p><a href="https://www.fremok.org/site.php?type=P&id=357">"Le Cheikh hyperactif"</a> Marko Turunen, Le Frémok, Bruxelles 2021</p>
+
+                <p><a href="https://www.fremok.org/site.php?type=P&id=361">"Mad Maxi-Jack"</a> Etienne Beck, Le Frémok, Bruxelles 2021</p>
+
+                <p>[in uscita] "Tout le monde est au courant de rien" Benoit Montjoie, Knock Outsider Magazine, Bruxelles 2020</p>
+
+                <p><a href="https://montenlair.fr/livre/le-jour-de-travail/">"Le jour de travail"</a> Aurélie William Levaux, Le Monte-en-l’air, Parigi 2019</p>
+
+                <p><a href="https://montenlair.fr/livre/la-poutre-de-mon-oeil/">"La poutre de mon oeil"</a> Aurélie William Levaux, Le Monte-en-l’air, Parigi 2019</p>
+            </section>
+
+            <section>
+                <p>Polaris Editore, Bologna</p>
+                <p>Supervue Festival, Liegi</p>
+            </section>
         </main>
 
         <footer>

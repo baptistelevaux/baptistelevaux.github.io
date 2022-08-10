@@ -1,14 +1,19 @@
-body{margin: 10px; font: 12.5px Courier, monospace;}
+body{margin: 10px; max-width: 800px; font: 13px monospace;}
 
-nav.taal{float: right; word-spacing: 20px;}
-nav.taal img{width: 22px; border: 1px black solid;}
-nav.menu{line-height: 22.5px;}
-
-main{max-width: 1000px;}
+nav{float: right; word-spacing: 20px;}
+header{line-height: 22.5px;}
+main{margin-top: 50px; max-width: 1000px;}
 footer{margin-top: 50px;}
 
-a{color: inherit;}
-a:hover{color: #c8c8c8;}
-a.dead-link{color: black; cursor: not-allowed;}
+section{margin-bottom: 30px;}
 
-span{background-color: #fcffc4;}
+button{width: 30px; cursor: pointer; font: 13px monospace; background-color: white; border: 1px solid black;}
+button:hover{opacity: 20%;}
+a{color: black;}
+a:hover{opacity: 20%;}
+
+h1{font-size: 13px;}
+p{margin-bottom: 4px; margin-top: 0;}
+
+#fra{display: block;}
+#ita{display: none;}
