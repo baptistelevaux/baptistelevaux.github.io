@@ -29,24 +29,71 @@
         </script>
     </head>
     <body>
-        <nav class="taal">
-            <a href="index">fr</a> /
-            <a href="index-it">it</a> /
-            <a href="index-en">en</a>
+        <nav>
+            <button onclick="showFr()">fr</button>
+            <button onclick="showIt()">it</button>
         </nav>
+
+        <script>
+            function showFr(){
+                var x = document.getElementById("fra");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "block";
+                }
+                var x = document.getElementById("ita");
+                if (x.style.display === "none") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+
+            function showIt(){
+                var x = document.getElementById("fra");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "none";
+                }
+                var x = document.getElementById("ita");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
 
         <header>
-            <p>baptiste saint levaux</p>
+            <p>Baptiste Saint Levaux</p>
+        </header>
 
-            <p>be / whatsapp <a href="tel:+32484352119">+32 484 35 21 19</a>
-            <br>it <a href="tel:+32484352119">+39 3791 6180 69</a>
-            <br><a href="mailto:baptiste.levaux@gmail.com">baptiste.levaux@gmail.com</a></p>
-        </nav>
+        <main id="fra">
+            <section>
+                <p>BE <a href="tel:+32484352119">+32 484 35 21 19</a>
+                <br>IT <a href="tel:+32484352119">+39 3791 6180 69</a>
+                <br><a href="mailto:baptiste.levaux@gmail.com">baptiste.levaux@gmail.com</a></p> 
+            </section>
 
-        <main>
-            <p>page introuvable
-            <br>pagina non trovata
-            <br>page not found</p>
+            <section>
+                <p>Page introuvable...</p>
+                <img src="library/pat_404.jpg">
+            </section>
+        </main>
+
+        <main id="ita">
+            <section>
+                <p>BE <a href="tel:+32484352119">+32 484 35 21 19</a>
+                <br>IT <a href="tel:+32484352119">+39 3791 6180 69</a>
+                <br><a href="mailto:baptiste.levaux@gmail.com">baptiste.levaux@gmail.com</a></p> 
+            </section>
+
+            <section>
+                <p>Pagina non trovata</p>
+                <img src="library/pat_404.jpg">
+            </section>
         </main>
 
         <footer>
