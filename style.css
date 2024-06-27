@@ -34,7 +34,7 @@ main p {
 p a {
 	font-style: italic;
 	color: inherit;
-	text-decoration: none;
+	text-decoration: dotted underline 2px;
 }
 
 h1 a {
