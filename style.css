@@ -1,68 +1,57 @@
-body , html {
-	width: 100%;
-	margin: 0;
-}
+/* GENERAL */
+
+body , html {width: 100%; margin: 0;}
 
 body {
-	color: magenta;
+	color: #ff9a9a;
 	font-family: Helvetica, Arial, sans-serif;
     font-size: 21px;
     line-height: 1.2;
 }
 
-div {
-	margin: 30px;
-}
+/* MAIN */
+
+div {margin: 30px;}
+.hidden-section {width: 100%; display: none; float: right; margin-bottom: 150px;}
+
+main p {color: #1c97d3;}
+main p sup {color: #00c987;}
+p a {font-style: italic; color: inherit; text-decoration: dotted underline 2px;}
+
+h1 {font-size: 36px; line-height: 1.1; font-weight: normal;}
+h1 a {font-style: italic; color: inherit; text-decoration: solid underline 3px;}
+
+a:hover , .fixed-button:hover {color: #fefd7c;}
 
 .quote {
+	color: #00c987;
 	font-family: serif;
 	font-style: italic;
 	text-align: justify;
 	font-size: 15px;
+	margin: 0;
+
+	column-count: 2;
+	column-gap: 20px;
 }
 
-h1 {
-	font-size: 35px;
-	line-height: 1.1;
-	font-weight: normal;
-}
-
-main p {
-	color: #00c987;
-}
-
-p a {
-	font-style: italic;
-	color: inherit;
-	text-decoration: dotted underline 2px;
-}
-
-h1 a {
-	font-style: italic;
-	color: inherit;
-	text-decoration: solid underline 3px;
-}
-
-a:hover , .fixed-button:hover {
-	color: #fefd7c;
-}
+/* INFOS FOOTER */
 
 .fixed-button {
     position: fixed;
     bottom: 30px;
     right: 30px;
     background-color: rgba(255,255,255,0);
-    color: inherit;
+    color: #1c97d3;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 35px;
+    font-size: 36px;
     z-index: 2;
 }
 
-.hidden {
-    display: none;
-}
+.hidden {display: none;}
+.footer-to-show.visible {transform: translateY(0);}
 
 footer {
 	position: fixed;
@@ -80,11 +69,7 @@ footer {
     box-sizing: border-box;
 }
 
-.footer-to-show.visible {
-    transform: translateY(0);
-}
-
-
+/* RESPONSIVE */
 
 @media screen and (min-width: 1300px) {
 	.hidden-section {width: 50%; display: none; float: right;}
