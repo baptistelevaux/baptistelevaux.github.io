@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+	display: flex;
+    height: 100vh;
+}
+
+section {
+	flex: 1;
+    overflow-y: auto;
+    height: 100vh;
+    padding: 7.5px; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+section::-webkit-scrollbar {
+	display: none; 
+}
+
+section:first-of-type {background: #d9f8ff;}
+section:nth-of-type(2) {background: #dfffe7;}
+section:last-of-type {background: #fdfad6;}
+
+p {
+	margin: 0 0 10px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	font-size: 17.5px;
+	line-height: 1.1;
+	color: #1c97d3;
+}
+
+sup {margin: 0 0 0 3px; vertical-align: text-top; position: relative; top: 5px; font-size: 13px; line-height: 0; color: #ab79dd;}
+span {margin: 0 5px 0 0 ; position: relative; bottom: 4px; font-size: 13px; color: #1c97d3;}
+p.quote {color: #ab79dd;}
+p.intro {color: #ff9a9a;}
+a {color: #00c987; text-decoration: none;}
+a:hover {color: #fff077;}
+
+.tooltip-image {
+    position: absolute;
+    display: none;
+    pointer-events: none;
+    z-index: 1000;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    max-width: 200px;
+}
+
+.tooltip-image img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 1000px) {
+	main {flex-direction: column;}
+	section {width: 100vw; height: 33.33vh; flex: none;}
+}
